@@ -1,0 +1,61 @@
+新闻标题语法解析
+
+大家好，本节课程我们将探讨新闻标题的语法特点，主要包含四部分内容：省略、语态、时态和标点。
+
+一、省略现象
+新闻标题常见四种省略类型：
+
+助动词be的省略：在完成时、进行时和被动语态结构中，be动词常被省略
+（例：Collapse claims 500 lives in South Korea）
+
+冠词省略：a/an/the等冠词通常不出现
+（例：Lion escapes zoo）
+
+连词替代：使用逗号、冒号、分号、破折号等标点替代连词
+（例：Congress favors early polls. BJP against it.）
+
+物主代词省略：所属关系代词常被简化
+（例：School asks parents for money to award books）
+
+二、语态特征
+
+主动语态优势：约80%标题使用主动语态，具有直接有力的表达效果
+（例：Suicide bomber kills dozens in Yemen）
+
+被动语态局限：易造成信息模糊和版面冗长，常用于规避责任来源
+（例：US drone strike set to kill 60 in Pakistan）
+
+三、时态运用
+
+一般现在时：
+
+描述已发生事件（例：13 die as crowded van crosses bridge）
+表示持续动作（例：School asks parents...）
+不定式表将来：
+（例：Florida frees to increase areas produce prices）
+
+一般过去时特殊用法：
+
+用于引语或反问式标题（例：I was not his mistress）
+四、标点符号
+
+逗号：
+
+替代连词（例：IMF CEO sound warnings as leaders gather in Davos）
+分隔新闻要素（例：Turkey ready to take over..., a Dogen tells Trump）
+冒号：
+
+引出直接引语（例：Toyota chief to employees: We must restart）
+替代系动词（例：Survey: 19 and 20 passengers hate Tuba）
+感叹号：
+仅用于强烈情感表达（例：biography crazy chance it is red!）
+
+问号：
+用于疑问式标题（例：A dumb question about...?）
+
+总结要点：
+
+标题常省略be动词/冠词/物主代词
+主动语态占主导地位
+现在时/不定式/过去时为主要时态形式
+标点符号具有特殊表意功能

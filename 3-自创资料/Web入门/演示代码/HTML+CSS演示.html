@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易点餐系统</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e74c3c;
+        }
+        
+        h2 {
+            color: #e74c3c;
+            margin-top: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #e74c3c;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tbody tr:hover {
+            background-color: #e6e6e6;
+        }
+        
+        input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        form p {
+            margin: 15px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+        
+        input[type="text"], input[type="tel"], input[type="time"], textarea {
+            width: 250px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #c0392b;
+        }
+    </style>
+</head>
+<body>
+    <h1>小餐馆点餐系统</h1>
+    
+    <h2>菜单</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>菜品</th>
+                <th>价格</th>
+                <th>选择数量</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>红烧肉</td>
+                <td>38元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>鱼香肉丝</td>
+                <td>28元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>宫保鸡丁</td>
+                <td>32元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>炒青菜</td>
+                <td>18元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>米饭</td>
+                <td>3元/碗</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>订单信息</h2>
+    <form>
+        <p>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" required>
+        </p>
+        <p>
+            <label for="phone">电话:</label>
+            <input type="tel" id="phone" required>
+        </p>
+        <p>
+            <label for="address">地址:</label>
+            <input type="text" id="address" required>
+        </p>
+        <p>
+            <label for="time">送达时间:</label>
+            <input type="time" id="time" required>
+        </p>
+        <p>
+            <label for="notes">备注:</label>
+            <textarea id="notes" rows="3" cols="30"></textarea>
+        </p>
+        <button type="submit">提交订单</button>
+    </form>
+</body>
+</html>

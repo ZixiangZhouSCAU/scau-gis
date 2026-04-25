@@ -1,0 +1,9 @@
+# 英语阅读刷题软件依赖包
+# 安装命令: pip install -r requirements.txt
+
+# 打包工具
+pyinstaller>=5.0
+
+# 如果需要更好的界面效果，可以添加以下包（可选）
+# ttkthemes>=3.2.2
+# pillow>=9.0.0

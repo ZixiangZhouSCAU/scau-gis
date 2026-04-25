@@ -1,0 +1,351 @@
+SPEAKER_00:
+ Hello everyone. In this session, we'll talk about lexical features in the news.
+
+SPEAKER_00:
+ What are lexical features of news and what kind of words do news reports tend to use?
+
+SPEAKER_00:
+ There are five preferences in word choice.
+
+SPEAKER_00:
+ Midget words or short words.
+
+SPEAKER_00:
+ Frequent use of new words.
+
+SPEAKER_00:
+ Abbreviations.
+
+SPEAKER_00:
+ High frequency of say words.
+
+SPEAKER_00:
+ And void words.
+
+SPEAKER_00:
+ First of all, what are midget words?
+
+SPEAKER_00:
+ Midget words are exact, simple, small words that have a strong expression of power.
+
+SPEAKER_00:
+ The headlines are always required to summarize the news content with limited words due to the limited space.
+
+SPEAKER_00:
+ Therefore, it is necessary that the expressions of news should be economical.
+
+SPEAKER_00:
+ Several examples of news headlines are listed here.
+
+SPEAKER_00:
+ Please pay attention to the highlighted words.
+
+SPEAKER_00:
+ Hit means strike or attack.
+
+SPEAKER_00:
+ Eyes means watches or observes.
+
+SPEAKER_00:
+ End means finish.
+
+SPEAKER_00:
+ A number of words in news bodies are also typically short and clear.
+
+SPEAKER_00:
+ They are convenient for people to read and understand.
+
+SPEAKER_00:
+ For example, the highlighted words in the following sentences.
+
+SPEAKER_00:
+ Drop is replaced by down in the first sentence, which visualizes the direction of development.
+
+SPEAKER_00:
+ And the two-syllable words secure in sentence two and scheduled in sentence three are substituted with single-syllable, clinch, and deal.
+
+SPEAKER_00:
+ And short words like seek are more favored than phrases like look for.
+
+SPEAKER_00:
+ In sentence three.
+
+SPEAKER_00:
+ Here is the list of midget words.
+
+SPEAKER_00:
+ Then, the frequent use of new words.
+
+SPEAKER_00:
+ The developmental society always requires more and more new vocabulary to express its problems.
+
+SPEAKER_00:
+ People need to voice their new findings or experience and to advance their new ideas, which leads to new words to emerge.
+
+SPEAKER_00:
+ New words can be achieved in three methods.
+
+SPEAKER_00:
+ New words consisting of two words.
+
+SPEAKER_00:
+ Derivating meanings from old words.
+
+SPEAKER_00:
+ And derivation from old words with prefix and or suffix.
+
+SPEAKER_00:
+ And derivation from old words with prefix and or suffix.
+
+SPEAKER_00:
+ There are many new words consisting of two or more words.
+
+SPEAKER_00:
+ They are either memorable for their vivid images or spread for their special structures.
+
+SPEAKER_00:
+ For example, Smog is the contraction of the words smoke and fog.
+
+SPEAKER_00:
+ Fruits is the contraction of the words fruit and juice.
+
+SPEAKER_00:
+ Stagflation?
+
+SPEAKER_00:
+ Stagnation?
+
+SPEAKER_00:
+ And inflation?
+
+SPEAKER_00:
+ Another main situation is the derivative meanings from old words.
+
+SPEAKER_00:
+ For example, Think tank, water gate.
+
+SPEAKER_00:
+ As we all know, Think is usually used as a verb to express the process of exercising the mind or forming an intention or plan.
+
+SPEAKER_00:
+ While tank is a noun meaning a large container.
+
+SPEAKER_00:
+ However, They are often found together in news reports.
+
+SPEAKER_00:
+ Generally speaking, Think tank in news reports is a group of specialists brought together, usually by a government, to develop ideas on a particular subject and to make suggestions for action.
+
+SPEAKER_00:
+ Another example is the word water gate, which is related to the Watergate scandal.
+
+SPEAKER_00:
+ Watergate scandal is a case in which a group of specialists, who are involved in a political scandal, are involved in a political scandal.
+
+SPEAKER_00:
+ The most ignoble political scandal in American history, which happened in 1972, has a long-term effect on international media.
+
+SPEAKER_00:
+ In the world, Watergate has entered the political lexicon as a term synonymous with corruption and scandal.
+
+SPEAKER_00:
+ The last situation is the derivation from old words through preface or surface.
+
+SPEAKER_00:
+ Several common prefaces and surfaces are
+
+SPEAKER_01:
+ For example, For example, Preface anti means against or be opposed to.
+
+SPEAKER_01:
+ Petrol is a preface.
+
+SPEAKER_01:
+ It is of petrol or of rocks.
+
+SPEAKER_01:
+ And dollar is the unit of money in the US, Canada, Australia, etc.
+
+SPEAKER_01:
+ Petrodollar is the unit of money earned by countries that produce petroleum for sale to other countries.
+
+SPEAKER_01:
+ Free as a suffix is clear, not blocked or unrestricted.
+
+SPEAKER_01:
+ Duty-free, disease-free, in other words containing suffix free, can always be found.
+
+SPEAKER_01:
+ Duty-free means no duty.
+
+SPEAKER_01:
+ The suffix written is usually used in compounds, and it can be explained as full of or dominated by something specified.
+
+SPEAKER_01:
+ Crisis-ridden means full of crisis.
+
+SPEAKER_01:
+ Now, let's talk about abbreviations.
+
+SPEAKER_01:
+ Abbreviations include acronyms and shortened words or clipping words.
+
+SPEAKER_01:
+ Acronyms are abbreviations formed from the initial components in a phrase or a word.
+
+SPEAKER_01:
+ They are made up by capital letters.
+
+SPEAKER_01:
+ Many proper nouns of international organizations can be discovered in the news, such as IMF, EU, APEC, etc.
+
+SPEAKER_01:
+ IMF is the acronym of International Monetary Funds.
+
+SPEAKER_01:
+ T гром nọn
+
+SPEAKER_00:
+ APPES IS 됩니다? What are shortened words or clipping words?
+
+SPEAKER_01:
+ Shortened words are a kind of words formed by clipping.
+
+SPEAKER_01:
+ Although shortened, they are still understood easily only to their high frequency use.
+
+SPEAKER_01:
+ Co-ops is short for co-operations.
+
+SPEAKER_01:
+ Fed is short for the Federal Reserve.
+
+SPEAKER_01:
+ Gas is short for gasoline.
+
+SPEAKER_01:
+ Motel comes from motor hotel.
+
+SPEAKER_01:
+ Extensive use of words of this type can help to save space because the original forms of these words are usually complicated.
+
+SPEAKER_01:
+ The abbreviations are much simplified and suited to mass audience.
+
+SPEAKER_01:
+ Journalists often use short words to describe the work.
+
+SPEAKER_01:
+ They often quote bluntly or implicitly the talks of news makers or other relevant personnel.
+
+SPEAKER_01:
+ So it is common that there is someone said in news.
+
+SPEAKER_01:
+ In fact, only the word say cannot embody definitely the tone of speakers.
+
+SPEAKER_01:
+ As a result, a series of synonyms of say come up.
+
+SPEAKER_01:
+ This news contains six says.
+
+SPEAKER_01:
+ While tell, stress, repeat, describe are also used to quote the statements of British Chancellor of the Exchequer.
+
+SPEAKER_01:
+ Different words make the news more objective and convictive.
+
+SPEAKER_01:
+ At the same time, they avoid the repeated emergence of say and add more colour to the news reports.
+
+SPEAKER_01:
+ More say words can be listed.
+
+SPEAKER_01:
+ Admit Acknowledge Allege Caution Complaint
+
+SPEAKER_00:
+ Confess Declare Maintain Protest Object Refute Warn Etc.
+
+SPEAKER_01:
+ What are vote words?
+
+SPEAKER_01:
+ Vote means faction.
+
+SPEAKER_01:
+ Vote words are loanwords or borrowings which are derived from other languages.
+
+SPEAKER_01:
+ There are a number of vote words in news.
+
+SPEAKER_01:
+ Because appropriate vote words are not the same as the ones used in the news, they are often used in the news.
+
+SPEAKER_01:
+ Vote words may increase the vitality of news reports.
+
+SPEAKER_01:
+ Vote words can not only increase emotional expressiveness but also catch readers' eyes and make the news unforgettable.
+
+SPEAKER_01:
+ For example, Peking Opera, Dim Sum, and Tsunami.
+
+SPEAKER_01:
+ To sum up, lexical features in news can be divided into five sections.
+
+SPEAKER_01:
+ Midget words or short words.
+
+SPEAKER_01:
+ Frequent use of new words.
+
+SPEAKER_01:
+ Abbreviations.
+
+SPEAKER_01:
+ High frequency of say words.
+
+SPEAKER_01:
+ And Void words.
+
+SPEAKER_01:
+ In details, new words fall into three categories.
+
+SPEAKER_00:
+ New words consisting of two words.
+
+SPEAKER_00:
+ New meanings from old words.
+
+SPEAKER_00:
+ Derivations from old words through prefix or seconds.
+
+SPEAKER_01:
+ Abbreviation can be put into two classes.
+
+SPEAKER_01:
+ Approving and Short-Termed words or Clipping words.
+
+SPEAKER_00:
+ That's the end of this session.
+
+SPEAKER_00:
+ Thank you for your time and attention.
+
+SPEAKER_00:
+ We hope you found this video helpful.
+
+SPEAKER_00:
+ If you have any questions or other problems, please contact us at the email address on the screen.
+
+SPEAKER_00:
+ Thank you for watching.
+
+SPEAKER_00:
+ We hope you found this video helpful.
+
+SPEAKER_00:
+ If you have any questions or other problems, please contact us at the email address on the screen.
+

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易点餐系统</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        
+        h1 {
+            color: #e74c3c;
+            text-align: center;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e74c3c;
+        }
+        
+        h2 {
+            color: #e74c3c;
+            margin-top: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #e74c3c;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tbody tr:hover {
+            background-color: #e6e6e6;
+        }
+        
+        input[type="number"] {
+            width: 60px;
+            padding: 5px;
+            text-align: center;
+        }
+        
+        form {
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        form p {
+            margin: 15px 0;
+        }
+        
+        label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+        }
+        
+        input[type="text"], input[type="tel"], input[type="time"], textarea {
+            width: 250px;
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #c0392b;
+        }
+        
+        .order-summary {
+            background-color: #fff;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .order-summary h3 {
+            margin-top: 0;
+            color: #e74c3c;
+        }
+        
+        .order-summary ul {
+            padding-left: 20px;
+        }
+        
+        .order-summary p {
+            font-weight: bold;
+            font-size: 18px;
+            text-align: right;
+        }
+        
+        .notification {
+            padding: 10px;
+            background-color: #dff0d8;
+            border: 1px solid #d6e9c6;
+            color: #3c763d;
+            border-radius: 4px;
+            margin-top: 20px;
+            display: none;
+        }
+        
+        .warning {
+            padding: 10px;
+            background-color: #fcf8e3;
+            border: 1px solid #faebcc;
+            color: #8a6d3b;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-weight: bold;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>小餐馆点餐系统</h1>
+    
+    <h2>菜单</h2>
+    <table id="menu">
+        <thead>
+            <tr>
+                <th>菜品</th>
+                <th>价格</th>
+                <th>选择数量</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-price="38">
+                <td>红烧肉</td>
+                <td>38元</td>
+                <td>
+                    <input type="number" min="0" value="0" class="item-quantity" onchange="updateOrderSummary()">
+                </td>
+            </tr>
+            <tr data-price="28">
+                <td>鱼香肉丝</td>
+                <td>28元</td>
+                <td>
+                    <input type="number" min="0" value="0" class="item-quantity" onchange="updateOrderSummary()">
+                </td>
+            </tr>
+            <tr data-price="32">
+                <td>宫保鸡丁</td>
+                <td>32元</td>
+                <td>
+                    <input type="number" min="0" value="0" class="item-quantity" onchange="updateOrderSummary()">
+                </td>
+            </tr>
+            <tr data-price="18">
+                <td>炒青菜</td>
+                <td>18元</td>
+                <td>
+                    <input type="number" min="0" value="0" class="item-quantity" onchange="updateOrderSummary()">
+                </td>
+            </tr>
+            <tr data-price="3">
+                <td>米饭</td>
+                <td>3元/碗</td>
+                <td>
+                    <input type="number" min="0" value="0" class="item-quantity" onchange="updateOrderSummary()">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <div class="order-summary" id="orderSummary">
+        <h3>订单摘要</h3>
+        <ul id="selectedItems">
+            <!-- 这里会显示选中的菜品 -->
+        </ul>
+        <p>总计: <span id="totalPrice">0</span>元</p>
+        <div class="warning" id="overeatWarning">吃这么多对身体不好啊孩子</div>
+    </div>
+    
+    <h2>订单信息</h2>
+    <form id="orderForm">
+        <p>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" required>
+        </p>
+        <p>
+            <label for="phone">电话:</label>
+            <input type="tel" id="phone" required>
+        </p>
+        <p>
+            <label for="address">地址:</label>
+            <input type="text" id="address" required>
+        </p>
+        <p>
+            <label for="time">送达时间:</label>
+            <input type="time" id="time" required>
+        </p>
+        <p>
+            <label for="notes">备注:</label>
+            <textarea id="notes" rows="3" cols="30"></textarea>
+        </p>
+        <button type="submit">提交订单</button>
+    </form>
+    
+    <div class="notification" id="orderNotification">
+        订单已提交成功！我们会尽快为您准备餐点。
+    </div>
+    
+    <script>
+        function updateOrderSummary() {
+            const menuRows = document.querySelectorAll('#menu tbody tr');
+            const selectedItemsList = document.getElementById('selectedItems');
+            const totalPriceElement = document.getElementById('totalPrice');
+            const warningElement = document.getElementById('overeatWarning');
+            
+            // 清空已选菜品列表
+            selectedItemsList.innerHTML = '';
+            
+            let totalPrice = 0;
+            
+            // 遍历菜单中的每一行
+            menuRows.forEach(row => {
+                const dishName = row.cells[0].textContent;
+                const price = parseFloat(row.getAttribute('data-price'));
+                const quantity = parseInt(row.querySelector('.item-quantity').value);
+                
+                // 如果数量大于0，添加到已选菜品列表
+                if (quantity > 0) {
+                    const itemTotal = price * quantity;
+                    totalPrice += itemTotal;
+                    
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `${dishName} x ${quantity} = ${itemTotal}元`;
+                    selectedItemsList.appendChild(listItem);
+                }
+            });
+            
+            // 更新总价
+            totalPriceElement.textContent = totalPrice;
+            
+            // 检查总价是否超过200元，显示或隐藏提示
+            if (totalPrice > 200) {
+                warningElement.style.display = 'block';
+            } else {
+                warningElement.style.display = 'none';
+            }
+        }
+        
+        // 表单提交处理
+        document.getElementById('orderForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const totalPrice = parseFloat(document.getElementById('totalPrice').textContent);
+            
+            // 检查是否有选择菜品
+            if (totalPrice <= 0) {
+                alert('请至少选择一个菜品！');
+                return;
+            }
+            
+            // 显示订单成功提示
+            document.getElementById('orderNotification').style.display = 'block';
+            
+            // 滚动到提示信息
+            document.getElementById('orderNotification').scrollIntoView({ behavior: 'smooth' });
+            
+            // 5秒后隐藏提示
+            setTimeout(() => {
+                document.getElementById('orderNotification').style.display = 'none';
+            }, 5000);
+            
+            // 在实际应用中，这里会发送数据到服务器
+            console.log('订单已提交', {
+                customerName: document.getElementById('name').value,
+                phone: document.getElementById('phone').value,
+                address: document.getElementById('address').value,
+                deliveryTime: document.getElementById('time').value,
+                notes: document.getElementById('notes').value,
+                items: getSelectedItems(),
+                totalPrice: totalPrice
+            });
+        });
+        
+        function getSelectedItems() {
+            const items = [];
+            const menuRows = document.querySelectorAll('#menu tbody tr');
+            
+            menuRows.forEach(row => {
+                const dishName = row.cells[0].textContent;
+                const quantity = parseInt(row.querySelector('.item-quantity').value);
+                
+                if (quantity > 0) {
+                    items.push({
+                        name: dishName,
+                        price: parseFloat(row.getAttribute('data-price')),
+                        quantity: quantity
+                    });
+                }
+            });
+            
+            return items;
+        }
+        
+        // 初始化页面
+        updateOrderSummary();
+    </script>
+</body>
+</html>

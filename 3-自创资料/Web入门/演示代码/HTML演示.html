@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简易点餐系统</title>
+</head>
+<body>
+    <h1>小餐馆点餐系统</h1>
+    
+    <h2>菜单</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>菜品</th>
+                <th>价格</th>
+                <th>选择数量</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>红烧肉</td>
+                <td>38元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>鱼香肉丝</td>
+                <td>28元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>宫保鸡丁</td>
+                <td>32元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>炒青菜</td>
+                <td>18元</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+            <tr>
+                <td>米饭</td>
+                <td>3元/碗</td>
+                <td>
+                    <input type="number" min="0" value="0">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>订单信息</h2>
+    <form>
+        <p>
+            <label for="name">姓名:</label>
+            <input type="text" id="name" required>
+        </p>
+        <p>
+            <label for="phone">电话:</label>
+            <input type="tel" id="phone" required>
+        </p>
+        <p>
+            <label for="address">地址:</label>
+            <input type="text" id="address" required>
+        </p>
+        <p>
+            <label for="time">送达时间:</label>
+            <input type="time" id="time" required>
+        </p>
+        <p>
+            <label for="notes">备注:</label>
+            <textarea id="notes" rows="3" cols="30"></textarea>
+        </p>
+        <button type="submit">提交订单</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+ENVI
+description = {
+ Calibrated Radiance from landsat5_May.img}
+samples = 3709
+lines   = 4956
+bands   = 6
+data type = 4
+interleave = bil
+file type = ENVI Standard
+header offset = 0
+byte order = 0
+map info = {UTM, 1.000, 1.000, 700035.000, 2650515.000, 3.000000e+01, 3.000000e+01, 49, North, WGS-84, units=Meters}
+coordinate system string = {PROJCS["UTM_Zone_49N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",111.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]}
+x start = 1676
+y start = 371
+band names = {
+ ROI Mask (TM Meta (Band 1):L5122044_04420051123_MTL.txt), 
+ ROI Mask (TM Meta (Band 2):L5122044_04420051123_MTL.txt), 
+ ROI Mask (TM Meta (Band 3):L5122044_04420051123_MTL.txt), 
+ ROI Mask (TM Meta (Band 4):L5122044_04420051123_MTL.txt), 
+ ROI Mask (TM Meta (Band 5):L5122044_04420051123_MTL.txt), 
+ ROI Mask (TM Meta (Band 7):L5122044_04420051123_MTL.txt)}
+wavelength = {
+ 0.485000, 0.569000, 0.660000, 0.840000, 1.676000, 2.223000}
+wavelength units = Micrometers
+data ignore value = 0.000000e+00
+sensor type = Landsat TM
+calibration scale factor = 1.00000000000000
+data units = W m^-2 sr^-1 um^-1

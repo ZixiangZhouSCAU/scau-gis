@@ -1,0 +1,22 @@
+ENVI
+description = {
+  Band Math Result, Expression = [float(b0)/10000] B0:ROI Mask (TM Meta (Band
+  1):L5122044_04420051123_MTL.txt):dq [Fri Dec 26 16:48:10 2025]}
+samples = 3709
+lines   = 4956
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 4
+interleave = bsq
+sensor type = Unknown
+byte order = 0
+x start = 1676
+y start = 371
+map info = {UTM, 1.000, 1.000, 700035.000, 2650515.000, 3.0000000000e+01, 3.0000000000e+01, 49, North, WGS-84, units=Meters}
+coordinate system string = {PROJCS["UTM_Zone_49N",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["False_Easting",500000.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",111.0],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",0.0],UNIT["Meter",1.0]]}
+wavelength units = Unknown
+band names = {
+ Band Math (float(b0)/10000)}
+calibration scale factor = 1.00000000000000
+data units = W m^-2 sr^-1 um^-1

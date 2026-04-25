@@ -1,0 +1,9 @@
+# GNSS OrbitMaster Dependencies
+# Required libraries: georinex, numpy, astropy, scipy, PyQt6
+
+affine==2.4.0
+georinex>=1.16.0
+numpy>=1.24.0
+scipy>=1.10.0
+astropy>=5.2.0
+PyQt6>=6.4.0
